@@ -1,12 +1,12 @@
-#Hello Hackers
+# Hello Hackers
 
-##Command History
+## Command History
 The challenge is to get the flag by using the up arrows as it contains the previous commands.
 
-###Solve
+### Solve
 **Flag:** `pwn.college{k7pRRHiXCietOFwQ2PUeWNJ1v6u.0lNzEzNxwiM2EzNzEzW}`
 
-Use the arrows to use prev command.
+Use the up arrow to use prev command,which gives the flag.
 ```bash
 
 ```
