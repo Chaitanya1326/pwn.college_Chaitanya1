@@ -1,0 +1,19 @@
+# Pondering Paths
+
+## Position Thy Self
+The challenge is to get the flag,by using absolute path of run file and which is in the challenge directory.And we have to change the directory using the cd(which is the change directory).
+
+### Solve
+**Flag:** `pwn.college{8A120VaWqIrKxI7SrL1QFZ1obJx.QX1QTN0wiM2EzNzEzW}`
+
+As we are in the wrong directory,we should find the correct directory and change the directory by using the cd.And we found out the correct directory by using /challenge/run which gave us the actual path which is /sys/kernel we change the directory to /sys/kernel and rerun the program and BOOM we get the flag.
+```bash
+/challenge/run
+cd /sys/kernel
+/challenge/run
+```
+
+### New Learnings
+How we can change the directory using cd and using absolute path with it.
+### References 
+pwn.college
